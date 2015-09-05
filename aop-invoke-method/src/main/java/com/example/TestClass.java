@@ -1,6 +1,6 @@
-package example;
+package com.example;
 
-import example.annotation.ReplacingMethod;
+import com.example.annotation.ReplacingMethod;
 
 public class TestClass {
     @ReplacingMethod("bar")

@@ -1,6 +1,6 @@
-package example;
+package com.example;
 
-import example.aop.ReplacingAspect;
+import com.example.aop.ReplacingAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

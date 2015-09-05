@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>example</groupId>
-    <artifactId>example-aop</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>aop-invoke-method</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <spring.version>4.2.1.RELEASE</spring.version>
@@ -13,7 +13,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
@@ -43,6 +42,5 @@
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectj.version}</version>
         </dependency>
-
     </dependencies>
 </project>

@@ -1,6 +1,6 @@
-package example.aop;
+package com.example.aop;
 
-import example.annotation.ReplacingMethod;
+import com.example.annotation.ReplacingMethod;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 @Aspect
 public class ReplacingAspect {
     // pointcut gives an expression selecting the "joint points" to be intercepted
-    @Pointcut("@annotation(example.annotation.ReplacingMethod)")
+    @Pointcut("@annotation(com.example.annotation.ReplacingMethod)")
     public void methodToBeReplaced() {
     }
 
